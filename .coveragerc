@@ -1,0 +1,3 @@
+[run]
+source = gentag
+omit = gentag/tests.py
