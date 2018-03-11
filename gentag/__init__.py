@@ -1,7 +1,7 @@
 # Simple and powerful tagging for Python objects.
 #
 # Author: Peter Odding <peter@peterodding.com>
-# Last Change: March 4, 2018
+# Last Change: March 11, 2018
 # URL: https://github.com/xolox/python-gentag
 
 """Simple and powerful tagging for Python objects."""
@@ -26,6 +26,18 @@ from verboselogs import VerboseLogger
 
 # Modules included in our package.
 from gentag.exceptions import EmptyTagError, TagExpressionError
+
+# Public identifiers that require documentation.
+__all__ = (
+    'DEFAULT_TAG_NAME',
+    'ObjectFactory',
+    'Scope',
+    'Tag',
+    'TagFactory',
+    '__version__',
+    'generate_id',
+    'logger',
+)
 
 DEFAULT_TAG_NAME = 'all'
 """The identifier of the default tag that matches all tagged objects (a string)."""
