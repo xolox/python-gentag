@@ -43,7 +43,7 @@ DEFAULT_TAG_NAME = 'all'
 """The identifier of the default tag that matches all tagged objects (a string)."""
 
 # Semi-standard module versioning.
-__version__ = '1.0.1'
+__version__ = '2.0'
 
 # Initialize a logger for this module.
 logger = VerboseLogger(__name__)
