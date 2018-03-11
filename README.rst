@@ -19,7 +19,7 @@ The package is currently tested on cPython 2.6, 2.7, 3.4, 3.5, 3.6 and PyPy
 Status
 ------
 
-While the ideas behind `gentags` have been floating around in my head since
+While the ideas behind `gentag` have been floating around in my head since
 2012 I didn't publish this as a standalone Python package until 2018 which
 explains why I'm publishing the initial version as a beta. Looking ahead
 towards the future:
@@ -28,10 +28,10 @@ towards the future:
   decide to replace the 'beta' label with a 'stable' label without making any
   substantive changes.
 
-- Releasing `gentags` is one step in the direction of releasing another Python
+- Releasing `gentag` is one step in the direction of releasing another Python
   package that I've been thinking about for a very long time now and if I turn
-  out to have trouble integrating `gentags` into that package I won't hesitate
-  to make (potentially major) changes to `gentags`.
+  out to have trouble integrating `gentag` into that package I won't hesitate
+  to make (potentially major) changes to `gentag`.
 
 Installation
 ------------
